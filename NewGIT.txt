@@ -1,0 +1,7 @@
+git commands;
+git status
+git init
+git log
+git commit
+git stash
+git origin
