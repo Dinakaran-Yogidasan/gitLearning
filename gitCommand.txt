@@ -1,0 +1,15 @@
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+git init
+git remote add origin https://github.com/MohanCloud-stack/githublearning.git
+
+
+git init
+git remote add origin [gitLink]
+git remote -v
+git add .
+git commit -m "First commit"
+git branch -M main
+git push origin main
+in case for the first time git config user.name "someone" 
+git config user.email "someone@someplace.com"
