@@ -1,0 +1,11 @@
+name: dev action workflow
+run-name: ${{ github.actor }} is testing out GitHub Actions
+on: workflow_dispatch
+jobs:
+  dev-action-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Greetings
+        run: echo "My First Github action workflow"
+      - run: echo " The job was automatically triggered by a ${{ github.event_name }} event."
+      - run: echo " This job is now running on a ${{ runner.os }} server hosted by GitHub!"
